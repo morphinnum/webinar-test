@@ -64,7 +64,7 @@ a {
 }
 
 .body-container {
-  background: url(/images/bg-mob.png) no-repeat;
+  background: url(images/bg-mob.png) no-repeat;
   background-size: cover;
   color: #FFFFFF;
   width: 100vw;
@@ -73,7 +73,7 @@ a {
 }
 @media (min-width: 1024px) {
   .body-container {
-    background: url(/images/bg-full.png) no-repeat;
+    background: url(images/bg-full.png) no-repeat;
     background-size: cover;
     background-position: bottom;
   }
