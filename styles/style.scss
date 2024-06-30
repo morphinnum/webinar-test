@@ -87,7 +87,7 @@ a {
 
 //----------main-styles-------------------
 .body-container {
-    background: url(/images/bg-mob.png) no-repeat;
+    background: url('../images/bg-mob.png') no-repeat;
     background-size: cover;
     color: $white;
     width: 100vw;
@@ -95,7 +95,7 @@ a {
     overflow-x: hidden;
     
     @media (min-width: 1024px) {
-        background: url(/images/bg-full.png) no-repeat;
+        background: url('../images/bg-full.png') no-repeat;
         background-size: cover;
         background-position: bottom;
     }
