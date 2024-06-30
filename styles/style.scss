@@ -253,10 +253,13 @@ a {
         padding: 6px 12px;
         margin-right: 6px;
         height: max-content;
-        font: 600 11px/16px 'Gilroy';
         border-radius: 6px;
         background-color: $label-bg;
         width: max-content;
+
+        span {
+            font: 600 11px/16px 'Gilroy';
+        }
         
         &:last-child {
             margin-right: 0;
@@ -272,9 +275,12 @@ a {
 
         @media (min-width: 768px) {
             padding: 13px 24px;
-            font: 600 14px/16px 'Gilroy';
             margin-right: 18px;
             border-radius: 10px;
+            
+            span {
+                font: 600 14px/16px 'Gilroy';
+            }
         }
     }
 }

@@ -211,10 +211,12 @@ a {
   padding: 6px 12px;
   margin-right: 6px;
   height: max-content;
-  font: 600 11px/16px "Gilroy";
   border-radius: 6px;
   background-color: #302E5A;
   width: max-content;
+}
+.labels__item span {
+  font: 600 11px/16px "Gilroy";
 }
 .labels__item:last-child {
   margin-right: 0;
@@ -228,9 +230,11 @@ a {
 @media (min-width: 768px) {
   .labels__item {
     padding: 13px 24px;
-    font: 600 14px/16px "Gilroy";
     margin-right: 18px;
     border-radius: 10px;
+  }
+  .labels__item span {
+    font: 600 14px/16px "Gilroy";
   }
 }
 
