@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/intl-tel-input/build/css/intlTelInput.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Вебинар</title>
+</head>
+<body class="body-container">
+    <header class="header d-flex justify-between">
+        <img class="logo" src="/images/logo.svg" alt="logo">
+        <div class="labels d-flex">
+            <p class="labels__item d-flex align-center">
+                <img class="icon" src="/images/icons/calendar.svg" alt="calendar">
+                <span>28 декабря</span>
+            </p>
+            <p class="labels__item d-flex align-center">
+                <img class="icon" src="/images/icons/clock.svg" alt="clock">
+                <span>3,5 часа</span>
+            </p>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__info">
+            <div class="labels d-flex">
+                <p class="labels__item labels__item_light d-flex align-center">
+                    <img class="icon" src="/images/icons/browser.svg" alt="clock">
+                    <span>Вебинар</span>
+                </p>
+            </div>
+            <h1 class="info__title">FRONT-END</h1>
+            <div class="info__subtitle d-flex">
+                <p class="highlight">
+                    <span class="highlight__content">с нуля</span>
+                </p>
+                <p>легкий старт в IT профессии</p>
+            </div>
+            <div class="info__text">
+                Узнайте какими <b>навыками должен обладать фронтенд разработчик в 2022 году</b> и как начать карьеру в востребованной профессии
+            </div>
+        </div>
+
+        <div class="main__form flex-col justify-center align-center">
+            <h4 class="form__title">
+                Запишитесь <span class="form__title_accent">бесплатно</span> </br> 
+                и получите подарок
+            </h4>
+            <div class="form">
+                <form id="form-validate" class="flex-col">
+                    <fieldset class="form__fieldset">
+                        <input id="name" class="form__input" type="text" placeholder="Ваше имя и фамилия">  
+                        <span class="error-message" id="name-error"></span>
+                    </fieldset>
+                                
+                    <fieldset class="form__fieldset">
+                        <input id="phone" class="form__input" type="text" placeholder="Ваш номер телефона">
+                        <span class="error-message" id="phone-error"></span>
+                    </fieldset>
+                    
+                    <fieldset class="form__fieldset">
+                        <input id="email" class="form__input" type="text" placeholder="Ваш email">
+                        <span class="error-message" id="email-error"></span>
+                    </fieldset>
+                    
+                    <div class="form__footer">
+                        <button id="submit-btn" type="submit" class="form__btn">Записаться бесплатно</button>
+
+                        <div class="form__agreement">
+                            <p>Нажимая на кнопку я соглашаюсь</p>
+                            <a href="#">с политикой конфидециальности</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+
+        <div class="main__features">
+            <figure class="d-flex feature">
+                <img class="feature__icon" src="/images/author.png" alt="author">
+                <figcaption>
+                    <p class="feature__title">
+                        КИРИЛЛ <span class="accent">КАСАТОНОВ</span> 
+                    </p>
+                    <p class="feature__text">
+                        6 лет коммерческого опыта с такими  компаниями как Mercedes-Benz и другими крупными корпорациями
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="d-flex feature">
+                <img class="feature__icon" src="/images/gift.svg" alt="gift">
+                <figcaption>
+                    <p class="feature__title">
+                        Бонус за регистрацию
+                    </p>
+                    <p class="feature__text">
+                        PDF-файл "5 преимуществ </br> профессии фронтенд разработчика"
+                    </p>
+                </figcaption>
+            </figure>
+        </div>
+    </main>
+</body>
+<script src="node_modules/intl-tel-input/build/js/intlTelInput.js"></script>
+<script src="js/main.js"></script>
+</html>
