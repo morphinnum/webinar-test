@@ -126,7 +126,6 @@ a {
         background-color: $form-bg;
         border-radius: 9px;
         margin: 0 auto 36px;
-        width: max-content;
     }
 
     .info {
@@ -256,17 +255,16 @@ a {
         border-radius: 6px;
         background-color: $label-bg;
         width: max-content;
+        font: 600 11px/16px 'Gilroy';
 
-        span {
-            font: 600 11px/16px 'Gilroy';
-        }
-        
         &:last-child {
             margin-right: 0;
         }
 
         &_light {
             background-color: $label-bg-lt;
+            padding: 3px 10px;
+            font: 600 12px/18px 'Gilroy';
         }
 
         .icon {
@@ -277,9 +275,11 @@ a {
             padding: 13px 24px;
             margin-right: 18px;
             border-radius: 10px;
-            
-            span {
-                font: 600 14px/16px 'Gilroy';
+            font: 600 14px/16px 'Gilroy';
+
+            &_light {
+                font: 600 16px/24px 'Gilroy';
+                padding: 4px 13px;
             }
         }
     }

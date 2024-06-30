@@ -102,7 +102,6 @@ a {
   background-color: #303A53;
   border-radius: 9px;
   margin: 0 auto 36px;
-  width: max-content;
 }
 .main .info__title {
   font: 800 53px/65px "Gilroy";
@@ -214,8 +213,6 @@ a {
   border-radius: 6px;
   background-color: #302E5A;
   width: max-content;
-}
-.labels__item span {
   font: 600 11px/16px "Gilroy";
 }
 .labels__item:last-child {
@@ -223,6 +220,8 @@ a {
 }
 .labels__item_light {
   background-color: #4252D1;
+  padding: 3px 10px;
+  font: 600 12px/18px "Gilroy";
 }
 .labels__item .icon {
   margin-right: 6px;
@@ -232,9 +231,11 @@ a {
     padding: 13px 24px;
     margin-right: 18px;
     border-radius: 10px;
-  }
-  .labels__item span {
     font: 600 14px/16px "Gilroy";
+  }
+  .labels__item_light {
+    font: 600 16px/24px "Gilroy";
+    padding: 4px 13px;
   }
 }
 
